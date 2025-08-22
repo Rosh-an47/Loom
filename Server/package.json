@@ -2,7 +2,7 @@
   "name": "loom-backend",
   "version": "1.0.0",
   "description": "a micro research platform",
-  "type" : "module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^5.1.0",
     "mongoose": "^8.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
